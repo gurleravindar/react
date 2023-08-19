@@ -3,4 +3,5 @@ WORKDIR /app
 COPY package.json .
 RUN npm install
 COPY . .
+COMPOSE 3000
 CMD ['npm', 'start']
